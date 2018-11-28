@@ -15,7 +15,7 @@ public class ComparatorLambda {
 		Collections.sort(list, compLambda);
 
 		for (String s : list) {
-			System.out.println(s);
+			System.out.println("S="+s);
 		}
 	}
 }
